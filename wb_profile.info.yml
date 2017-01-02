@@ -58,6 +58,7 @@ dependencies:
 
   # contrib - dev
   - ctools
+  - components
 
   # contrib - seo
   - token
@@ -69,4 +70,4 @@ dependencies:
 
 themes:
   - adminimal_theme
-  - wb_theme
+#  - wb_theme
