@@ -1,0 +1,72 @@
+name: 'WillBe profile'
+type: profile
+description: 'A base installation profile for WillBe projects.'
+core: 8.x
+
+dependencies:
+  # core
+#  - action
+#  - aggregator
+  - automated_cron
+#  - ban
+  - block
+  - block_content
+#  - book
+  - breakpoint
+  - ckeditor
+#  - color  
+#  - comment
+  - config
+#  - contact
+  - contextual
+  - datetime
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - field_ui
+  - file
+#  - forum
+  - help
+  - image
+  - language
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - path
+  - quickedit
+  - rdf
+  - search
+  - shortcut
+  - syslog
+  - taxonomy
+#  - telephone
+  - toolbar
+#  - tour
+#  - tracker # Activity tracker
+#  - update
+  - views
+  - views_ui
+  - user
+  - text
+
+  # contrib - admin
+  - coffee
+  - adminimal_admin_toolbar
+  - admin_toolbar_tools
+
+  # contrib - dev
+  - ctools
+
+  # contrib - seo
+  - token
+  - pathauto
+  - metatag
+  - xmlsitemap
+#  - google_analytics
+  - rdfui
+
+themes:
+  - adminimal_theme
+  - wb_theme
