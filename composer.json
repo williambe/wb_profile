@@ -8,10 +8,23 @@
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
+        // {
+        //     "type": "vcs",
+        //     "url": "git@github.com:williambe/pattern-lab-starter.git"
+        // }
         {
-            "type": "vcs",
-            "url": "git@github.com:williambe/pattern-lab-starter.git"
+            "type": "package",
+            "package": {
+                "name": "williambe/pattern-lab-starter",
+                "version": "dev-master",
+                "source": {
+                    "url": "git@github.com:williambe/pattern-lab-starter.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
         }
+
     ],
 
     "require": {
