@@ -27,6 +27,6 @@
         "drupal/redirect": "1.x-dev",
         "drupal/rdfui": "1.x-dev",
 
-        "williambe/pattern-lab-starter": "dev-master"
+        "williambe/pattern-lab-starter": "dev-starterkit_wb"
     }
 }
