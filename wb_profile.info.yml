@@ -70,4 +70,4 @@ dependencies:
 
 themes:
   - adminimal_theme
-#  - wb_theme
+  - pattern-lab-starter
