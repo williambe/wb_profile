@@ -28,7 +28,8 @@
         "drupal/pathauto":  "1.x-dev",
         "drupal/xmlsitemap": "1.x-dev",
         "drupal/redirect": "1.x-dev",
-        "drupal/paragraphs": "^1.0"
+        "drupal/paragraphs": "^1.0",
+        "drupal/rdfui": "^1.0@beta"
 
     }
 }
