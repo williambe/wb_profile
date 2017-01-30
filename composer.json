@@ -29,7 +29,7 @@
         "drupal/xmlsitemap": "1.x-dev",
         "drupal/redirect": "1.x-dev",
         "drupal/paragraphs": "^1.0",
-        "drupal/rdfui": "^1.0@beta"
+        "drupal/rdfui": "1.x-dev"
 
     }
 }
