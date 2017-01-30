@@ -3,19 +3,17 @@
     "description": "A base installation profile for WillBe projects.",
     "type": "drupal-profile",
     "license": "GPL-2.0+",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+
     "repositories": [
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/williambe/pattern-lab-starter"
         }
-
     ],
     "require": {
-        "drupal/core": "~8.0",
+        "drupal/core": "^8.2.5",
 
         "drupal/ctools": "3.x-dev",
         "drupal/config_update": "^1.2",
@@ -29,9 +27,7 @@
         "drupal/token": "1.x-dev",
         "drupal/pathauto":  "1.x-dev",
         "drupal/xmlsitemap": "1.x-dev",
-        "drupal/redirect": "1.x-dev",
-        "drupal/rdfui": "1.x-dev",
+        "drupal/redirect": "1.x-dev"
 
-        "williambe/pattern-lab-starter": "dev-starterkit_wb"
     }
 }
