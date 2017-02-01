@@ -2,7 +2,6 @@ name: 'WillBe profile'
 type: profile
 description: 'A base installation profile for WillBe projects.'
 core: 8.x
-
 dependencies:
   # core
 #  - action
@@ -20,13 +19,14 @@ dependencies:
 #  - contact
   - contextual
   - datetime
-  - dblog
+  # - dblog
   - dynamic_page_cache
   - editor
   - field_ui
   - file
 #  - forum
   - help
+#  - history
   - image
   - language
   - menu_link_content
@@ -40,6 +40,7 @@ dependencies:
   - search
   - shortcut
   - syslog
+  - system
   - taxonomy
 #  - telephone
   - toolbar
@@ -58,7 +59,12 @@ dependencies:
 
   # contrib - dev
   - ctools
+
+  # contrib - front-end
   - components
+  - paragraphs
+  - ui_patterns
+  - field_group
 
   # contrib - seo
   - token
@@ -69,5 +75,6 @@ dependencies:
   - rdfui
 
 themes:
+  - seven
   - adminimal_theme
-  - pattern_lab_starter
+  - patternlab

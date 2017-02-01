@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+name: Article
+type: article
+description: '<em>Articles</em> is the base content type. Adding content chunk through <a href="https://www.drupal.org/project/paragraphs">paragraphs</a> or other embeddable entities turn it into more specific content case.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
