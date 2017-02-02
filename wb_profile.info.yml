@@ -63,8 +63,8 @@ dependencies:
   # contrib - front-end
   - components
   - paragraphs
-  - ui_patterns
   - field_group
+  # - ui_patterns
 
   # contrib - seo
   - token
