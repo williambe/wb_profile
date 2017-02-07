@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+  module:
+    - node
+id: node.article
+targetEntityType: node
+bundle: article
+types:
+  - 'schema:WebPage'
+fieldMappings: {  }
