@@ -1,7 +1,7 @@
 {
     "name": "williambe/wb_profile",
     "description": "A base installation profile for WillBe projects.",
-    "type": "drupal-profile",
+    "type": "drupal-custom-profile",
     "license": "GPL-2.0+",
     "minimum-stability": "dev",
     "prefer-stable": true,
