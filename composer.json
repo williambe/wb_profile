@@ -30,8 +30,7 @@
         "drupal/redirect": "1.x-dev",
         "drupal/rdfui": "1.x-dev",
 
-        "drupal/paragraphs": "^1.0",
-        "drupal/field_group": "^1.0@RC"
+
 
     }
 }
