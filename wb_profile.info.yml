@@ -59,22 +59,30 @@ dependencies:
 
   # contrib - dev
   - ctools
+  - libraries
+  - module_filter
 
   # contrib - front-end
-  - components
-  - paragraphs
-  - ui_patterns
+  # - components
+  # - paragraphs
+  # - ui_patterns
   - field_group
 
   # contrib - seo
   - token
   - pathauto
   - metatag
+  - rabbit_hole
+  - redirect
   - xmlsitemap
 #  - google_analytics
   - rdfui
 
+  # contrib - content
+  - eu_cookie_compliance
+  - default_content
+
 themes:
   - seven
   - adminimal_theme
-  - patternlab
+  - emulsify
