@@ -71,16 +71,16 @@ dependencies:
   # contrib - seo
   - token
   - pathauto
-  - metatag
+#  - metatag
   - rabbit_hole
   - redirect
   - xmlsitemap
 #  - google_analytics
-  - rdfui
+#  - rdfui
 
   # contrib - content
   - eu_cookie_compliance
-  - default_content
+#  - default_content
 
 themes:
   - seven
