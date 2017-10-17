@@ -77,4 +77,4 @@ dependencies:
 themes:
   - seven
   - adminimal_theme
-  - patternlab
+  # - patternlab
